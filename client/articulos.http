@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/articulos HTTP/1.1
+###
+GET http://localhost:3000/api/articulos/1 HTTP/1.1
+###
+POST http://localhost:3000/api/articulos HTTP/1.1
+
+{
+    "descripcion": "Articulo 8",
+    "precioUnitario": 10,
+    "diasVidaUtil": 70,
+    "codMarca": 1,
+    "codProveedor": 1
+}
